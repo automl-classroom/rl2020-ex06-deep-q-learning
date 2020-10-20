@@ -1,2 +1,3 @@
-# Week 1: Introduction
-The exercises in this course will teach you how to implement important RL algorithms and how every part of the RL pipeline works. The goal of this first exercise is to set up teams and learn about git and the workflow for future exercises.
+# Week 6: Deep Q-Learning
+
+This week you will extend Q-Learning with linear function approximation to even more complex environments by implementing a Deep Q-Network (DQN).

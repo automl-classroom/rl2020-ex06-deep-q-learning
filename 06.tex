@@ -56,15 +56,13 @@
 
 \begin{questions}
 	\titledquestion{Deep Q Learning}
-	You will complete the code stubs in \emph{sarsa.py} to implement the SARSA algorithm from the lecture. You should include epsilon greedy exploration, as exploration is an important part of model-free learning algorithms. As always, use the methods provided as guidance as to what is queried in the tests, but feel free to extend our suggestions in any way you like.
-	
-	\titledquestion{Hyperparameters of SARSA}
-	Many concepts of SARSA also apply in more powerful RL algorithms, for example the effect of its hyperparameters. Therefore you now have an opportunity to experiment with different hyperparameter values and how they influence how successful the algorithm runs. Please record the answer to these questions in \emph{observations.txt}:
+	\indent
 	\begin{itemize}
-		\item Does setting the learning rate to $0.8$ increase or decrease the number of training steps?
-		\item For which value of $\epsilon$ do you get the best result, $0.01$, $0.1$ or $0.9$?
-		\item Which works better for you, initializing Q to all $0$ or initializing it randomly?
+		\item Implement the Deep Q-Network (DQN) in \emph{deep\_q\_learning.py}. Try to vary the DQN architecture (wider, deeper) and record your observations in the \emph{observations.txt} file.
+		\item Add a replay buffer to solve the \texttt{LunarLander-v2} environment.
+		 How does the replay buffer size affect training performance?
 	\end{itemize}
+	
 \end{questions}
 
 \end{document}
