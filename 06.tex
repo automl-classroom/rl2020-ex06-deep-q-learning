@@ -23,7 +23,7 @@
 \pagestyle{headandfoot}
 
 %%%%%% MODIFY FOR EACH SHEET!!!! %%%%%%
-\newcommand{\duedate}{08.12.2020 (10:00)}
+\newcommand{\duedate}{09.12.2020 (15:00)}
 \newcommand{\due}{{\bf This assignment is due on \duedate.} }
 \firstpageheader
 {Due: \duedate}
@@ -58,9 +58,12 @@
 	\titledquestion{Deep Q Learning}
 	\indent
 	\begin{itemize}
-		\item Implement the Deep Q-Network (DQN) in \emph{deep\_q\_learning.py}. Try to vary the DQN architecture (wider, deeper) and record your observations in the \emph{observations.txt} file.
-		\item Add a replay buffer to solve the \texttt{LunarLander-v2} environment.
+		\item Implement the Deep Q-Network (DQN) in \emph{deep\_q\_learning.py}. Try to vary the DQN architecture (wider, deeper) and record your observations in the \emph{observations.txt} file. What is the deepest architecture that can still solve this environment?
+		\item Does the same architecture work for \texttt{CartPole-v0}?
+		\item Add a replay buffer (i.e. sample from the most recent experiences) to solve the \texttt{LunarLander-v2} environment.
 		 How does the replay buffer size affect training performance?
+		\item How does the batch size (\texttt{BATCH\_SIZE}) interact with your network architecture?
+		\item Try different optimizers. Is momentum needed for solving this environment?
 	\end{itemize}
 	
 \end{questions}
